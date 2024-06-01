@@ -1,0 +1,76 @@
+.search-page {
+  background: rgba(59, 130, 246, 1);
+  height: 100vh;
+}
+@media (min-width: 768px) {
+  .search-page {
+    display: none;
+  }
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 85px;
+  height: 10vh;
+}
+.input-search {
+  border: 5px solid #ffffff;
+  height: 30px;
+  padding: 5px;
+  width: 60%;
+  background-color: #ffffff;
+}
+.search-button {
+  background-color: #ffffffb5;
+  border: 1px solid #ffffffd0;
+  padding: 5px;
+  align-self: center;
+  height: 30px;
+  width: 50px;
+}
+.search-results-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.search-description {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.009999999776482582px;
+  text-align: center;
+  color: rgb(219, 234, 239);
+}
+.posts-container-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+.posts {
+  height: 70vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.no-search-result-container {
+  color: #ffffff;
+}
+.search-not-found-msg {
+  margin-top: 20px;
+}
+.search-not-found-description {
+  margin-top: 20px;
+}

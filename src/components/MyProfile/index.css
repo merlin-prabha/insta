@@ -1,0 +1,38 @@
+.profile-page {
+  background-color: rgba(59, 130, 246, 1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  margin: 0px;
+}
+.failure-image {
+  width: 50%;
+}
+.profile-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 5%;
+  border-radius: 20%;
+}
+.profile-try-again-button {
+  background-color: rgba(59, 130, 246, 1);
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.failure-message {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+.profile-container {
+  margin-top: 110px;
+}
